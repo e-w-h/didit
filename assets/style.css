@@ -1,0 +1,26 @@
+
+h1 {
+  color: white;
+  align-items: center;
+}
+
+body {
+  background-color: black;
+}
+
+#outer {
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 300px;
+  height:400px;
+  background-color: black;
+  border-color: white;
+  color: white;
+}
