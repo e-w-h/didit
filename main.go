@@ -17,15 +17,21 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
     Date: now.Format("01/02/2006"),
     Time: now.Format("15:04:05"),
   }
-  t, err := template.ParseFiles("index.html")
+  tmpl, err := template.ParseFiles("index.html")
   if err != nil {
+    panic(err)
   }
-  err = t.Execute(w, Clicked)
+  err = tmpl.Execute(w, Clicked)
   if err != nil {
+    panic(err)
   }
 }
 
-func main() {
+func handleRequests() {
   http.HandleFunc("/", indexHandler)
   http.ListenAndServe(":3000", nil)
+}
+
+func main() {
+  handleRequests()
 }
