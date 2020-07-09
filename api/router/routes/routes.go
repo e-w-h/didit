@@ -28,7 +28,7 @@ func SetupRoutes(r *mux.Router) *mux.Router {
 
 func SetUpRoutesWithMiddlewares(r *mux.Router) *mux.Router {
   for _, route := fange Load() {
-    if route.AuthREquired {
+    if route.AuthRequired {
       r.HandleFunc(route.Uri, middlewares.SetMiddlewareLogger(middlewares.SetmMiddlewareJSON(middlewares.SetMiddlewareAuthentication(route.Handler))),).Methods(route.Method)
     } else {
       r.HandleFunc(route.Uri,
