@@ -8,7 +8,7 @@ import (
   "github.com/jinzhu/gorm"
   _ "github.com/jinzhu/gorm/dialects/mysql"
 
-  "github.com/victorsteven/fullstack/api/models"
+  "github.com/e-w-h/didit/api/models"
 )
 
 type Server struct {
