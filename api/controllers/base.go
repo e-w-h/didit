@@ -3,7 +3,7 @@ package controllers
 import (
   "fmt"
   "log"
-  "net.http"
+  "net/http"
   "github.com/gorilla/mux"
   "github.com/jinzhu/gorm"
   _ "github.com/jinzhu/gorm/dialects/mysql"
