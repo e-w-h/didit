@@ -4,6 +4,7 @@ import (
   "html/template"
   "net/http"
   "time"
+  "github.com/e-w-h/didit/api"
 )
 
 type Info struct {

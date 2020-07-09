@@ -4,8 +4,8 @@ import (
   "fmt"
   "log"
   "os"
-  "github.com/joho/godotevn"
-  "didit/api/controllers"
+  "github.com/joho/godotenv"
+  "github.com/e-w-h/didit/api/controllers"
 )
 
 var server = controllers.Server{}
