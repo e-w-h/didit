@@ -2,7 +2,7 @@ package controllers
 
 import (
   "encoding/json"
-  "io/util"
+  "io/ioutil"
   "net/http"
   "github.com/e-w-h/didit/api/auth"
   "github.com/e-w-h/didit/api/models"
