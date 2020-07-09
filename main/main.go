@@ -33,5 +33,6 @@ func handleRequests() {
 }
 
 func main() {
+  api.Run()
   handleRequests()
 }
