@@ -1,6 +1,7 @@
 package database
 
 import (
+  "github.com/e-w-h/didit/config"
   "github.com/jinzhu/gorm"
   "github.com/jinzhu/gorm/dialects/mysql"
 )

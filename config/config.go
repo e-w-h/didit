@@ -24,7 +24,7 @@ func Load() {
   PORT, err = strconv.Atoi(os.Getenv("API_PORT"))
   if err != nil {
     log.Println(err)
-    PORT = 7000
+    PORT = 8080
   }
 
   DBDRIVER = os.Getenv("DB_DRIVER")
