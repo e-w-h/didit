@@ -1,8 +1,8 @@
 package auto
 
 import (
-  "didit/api/database"
-  "didit/api/database"
+  "github.com/e-w-h/didit/api/database"
+  "github.com/e-w-h/didit/api/database"
   "log"
 )
 

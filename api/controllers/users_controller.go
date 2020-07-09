@@ -8,10 +8,10 @@ import (
   "net/http"
   "strconv"
   "github.com/gorilla/mux"
-  "didit/api/auth"
-  "didit/api/models"
-  "didit/api/responses"
-	"didit/api/utils/formaterror"
+  "github.com/e-w-h/didit/api/auth"
+  "github.com/e-w-h/didit/api/models"
+  "github.com/e-w-h/didit/api/responses"
+	"github.com/e-w-h/didit/api/utils/formaterror"
 )
 
 func (server *Server) CreateUser(w http.ResponseWriter, r *http.Request) {
