@@ -1,7 +1,7 @@
 package routes
 
 import (
-  "didit/api/middlewares"
+  "github.com/e-w-h/didit/api/middlewares"
   "net/http"
   "github.com/gorilla/mux"
 )

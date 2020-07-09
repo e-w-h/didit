@@ -1,7 +1,7 @@
 package routes
 
 import (
-  "didit/api/controllers"
+  "github.com/e-w-h/didit/api/controllers"
   "net/http"
 )
 
