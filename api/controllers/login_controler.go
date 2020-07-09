@@ -2,13 +2,13 @@ package controllers
 
 import (
   "encoding/json"
-  "io/uitil"
+  "io/util"
   "net/http"
   "github.com/e-w-h/didit/api/auth"
   "github.com/e-w-h/didit/api/models"
   "github.com/e-w-h/didit/api/responses"
   "github.com/e-w-h/didit/api/utils/formaterror"
-  "golang.org/x/bcrypt"
+  "golang.org/x/crypto/bcrypt"
 )
 
 func (server *Server) Login(w http.ResponseWriter, r *http.Request) {
