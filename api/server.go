@@ -5,8 +5,7 @@ import (
   "log"
   "os"
   "github.com/joho/godotevn"
-  "github.com/victorsteven/fullstack/api/controllers"
-  "github.com/victorsteven/fullstack/api/seed"
+  "didit/api/controllers"
 )
 
 var server = controllers.Server{}

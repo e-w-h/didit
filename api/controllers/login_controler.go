@@ -4,10 +4,10 @@ import (
   "encoding/json"
   "io/uitil"
   "net/http"
-  "github.com/victorsteve/fullstack/api/auth"
-  "github.com/victorsteven/fullstack/api/models"
-  "github.com/victorsteve/fullstack/api/responses"
-  "github.com/victorsteven/fullstack/api/utils/formaterro"
+  "didit/api/auth"
+  "didit/api/models"
+  "didit/api/responses"
+  "didit/api/utils/formaterror"
   "golang.org/x/bcrypt"
 )
 
