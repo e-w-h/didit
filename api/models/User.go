@@ -1,6 +1,6 @@
 package models
 
-import {
+import (
   "errors"
   "html"
   "log"
@@ -10,7 +10,7 @@ import {
   "github.com/badoux/checkmail"
   "github.com/jinzhu/gorm"
   "golang.org/x/crypto/bcrypt"
-}
+)
 
 type User struct {
   ID uint32 'gorm:"primary_key;auto_increment" json:"id"'
